@@ -13,6 +13,7 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME ICONS  -->
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
+
     <!-- CUSTOM STYLE  -->
     <link href="assets/css/style.css" rel="stylesheet" />
      <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -21,7 +22,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <link href="assets/css/animate.css" rel="stylesheet"/>
 <style type="text/css">
     @media only screen and (max-width: 1000px) {
     #inline-form {
@@ -35,9 +36,9 @@
     <header style = "background-color:#100">
         <div id = "inline-form" class="row mt">
                 <div class="col-lg-12 xs-hidden lg-visible">
-                    <div class="form-panel">
+                    <div class="form-panel animated bounceInLeft">
                       <form class="form-inline" role="form">
-                          <div class="form-group">
+                          <div class="form-group ">
                               <label class="sr-only" for="exampleInputEmail2">Search By Id</label>
                               <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Search By Id">
                           </div>
@@ -59,7 +60,7 @@
                 </button>
                 
              <a class="navbar-brand" href="index.html" id = "head-line">
-                <h3 class = "logo" style = "color : #333;font-family: Copperplate / Copperplate Gothic Light, sans-serif;"><b>MAHESHWARI.org</b></h3>
+                <h3 class = "logo animated bounceInRight" style = "color : #333;font-family: Copperplate / Copperplate Gothic Light, sans-serif;"><b>MAHESHWARI.<i>org</i></b></h3>
                 </a>
             
                 
@@ -70,12 +71,7 @@
                 <div class="user-settings-wrapper" >
                     <ul class="nav">
 
-                        <li class="dropdown" >
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false" style = "background-color:#c32f10  ">
-                                <span class="glyphicon glyphicon-edit" style="font-size: 25px;"></span>
-                            </a>
-                            
-                        </li>
+                      
 
 
                     </ul>
@@ -84,19 +80,19 @@
         </div>
     </div>
     <!-- LOGO HEADER END-->
-    <section class="menu-section">
-        <div class="container">
+    <section class="menu-section ">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-12">
                     <div class="navbar-collapse collapse ">
-                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right ">
                             <li><a class="menu-top-active" href="index.html">Dashboard</a></li>
                             <li><a href="#">Link 1</a></li>
                             <li><a href="#">Link 2</a></li>
                             <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Link 3
           <span class="caret"></span></a>
-          <ul class="dropdown-menu navbar-nav navbar-right" style = "background-color:#333">
+          <ul class="dropdown-menu navbar-right animated bounceInRight" style = "background-color:#333">
             <li><a href="#">Sub-Link 1</a></li>
             <li><a href="#">Sub-Link 2</a></li>
             <li><a href="#">Sub-Link 3</a></li> 
@@ -117,14 +113,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class="page-head-line">Welcome!</h4>
+                <br/>
+                    <h4 class="page-head-line animated bounceInRight ">Welcome!</h4>
 
                 </div>
 
             </div>
             <div class="row">
                  <a href="#">
-                 <div class="col-md-3 col-sm-3 col-xs-6">
+                 <div class="col-md-3 col-sm-3 col-xs-6 col-lg-3 animated bounce infinite">
                     <div class="dashboard-div-wrapper bk-clr-one">
                         <i  class="fa fa-venus dashboard-div-icon" ></i>
                         </a>
@@ -133,7 +130,7 @@
 
                 </div>
                 <a href = "#">
-                 <div class="col-md-3 col-sm-3 col-xs-6">
+                 <div class="col-md-3 col-sm-3 col-xs-6 col-lg-3 animated bounce infinite">
                     <div class="dashboard-div-wrapper bk-clr-two">
                         <i  class="fa fa-edit dashboard-div-icon" ></i>
                         </a>
@@ -141,31 +138,31 @@
                     </div>
                 </div>
                 <a href="#">
-                 <div class="col-md-3 col-sm-3 col-xs-6">
+                 <div class="col-md-3 col-sm-3 col-xs-6 col-lg-3 animated bounce infinite">
                     <div class="dashboard-div-wrapper bk-clr-three">
                         <i  class="fa fa-cogs dashboard-div-icon" ></i>
                         </a>
-                         <h5><strong>Customize membership options.</strong></h5>
+                         <h5><strong>Customize membership.</strong></h5>
                     </div>
                 </div>
                 <a href = "#">
-                <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="col-md-3 col-sm-3 col-xs-6 col-lg-3 animated bounce infinite">
                     <div class="dashboard-div-wrapper bk-clr-four">
                         <i  class="fa fa-bell-o dashboard-div-icon" ></i>
                         </a>
-                         <h5><strong>Send and manage interests.</strong></h5>
+                         <h5><strong>Send,recieve interests.</strong></h5>
                     </div>
                 </div>
 
             </div>
            
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-8 col-xs-12 col-sm-8 col-lg-6 ">
                       <div class="notice-board">
                         <div class="panel panel-success">
                             <div class="panel-heading ">
                             <div >
-                          <strong class = "page head-line"> General Search</strong>
+                          <strong class = "page head-line animated tada infinite"> General Search</strong>
 
                                 <div class="pull-right" >
                                     <div class="dropdown">
@@ -173,7 +170,7 @@
     <span class="glyphicon glyphicon-cog"></span>
     <span class="caret"></span>
   </button>
-  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+  <ul class="dropdown-menu animated bounceInRight" role="menu" aria-labelledby="dropdownMenu1">
     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Advance Search</a></li>
     </div>
   </ul>
@@ -312,11 +309,11 @@
                     
                             
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-6">
                 <div class="Compose-Message">               
                 <div class="panel panel-info">
                                       
-                                      <div class = "panel-heading"<h4> <strong >Member Log In</strong></h4>
+                                      <div class = "panel-heading "> <strong class= "animated tada infinite">Member Log In</strong>
                     <br />
 </div>
 <br/>
@@ -331,12 +328,12 @@
                          <hr/>
                          <h5> <strong>Continue with : </strong></h5>
                     <a href="index.html" class="btn btn-social btn-facebook">
-                            <i class="fa fa-facebook"></i>&nbsp; Facebook</a>
+                            <i class="fa fa-facebook"></i>&nbsp;</a>
                     &nbsp;Or&nbsp;
                    
 
                     <a href="index.html" class="btn btn-social btn-google">
-                            <i class="fa fa-google-plus"></i>&nbsp; Google</a>
+                            <i class="fa fa-google-plus"></i>&nbsp;</a>
                     
                     <div class="panel-body">
 
